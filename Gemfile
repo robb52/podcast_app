@@ -15,6 +15,8 @@ gem 'bootsnap', '>= 1.1.0', require: false
 gem 'devise', '~> 4.6', '>= 4.6.1'
 gem 'paperclip', '~> 6.1'
 gem 'aws-sdk', '~> 3.0', '>= 3.0.1'
+gem 'jquery-rails', '~> 4.3', '>= 4.3.3'
+gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.4'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
