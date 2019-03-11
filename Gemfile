@@ -17,6 +17,7 @@ gem 'paperclip', '~> 6.1'
 gem 'aws-sdk', '~> 3.0', '>= 3.0.1'
 gem 'jquery-rails', '~> 4.3', '>= 4.3.3'
 gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.4'
+gem 'will_paginate', '~> 3.1', '>= 3.1.6'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
