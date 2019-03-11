@@ -14,7 +14,9 @@
 
     <%= render 'layouts/alert' %>
 
-   <%= render 'layouts/nav' %>
+  <% unless current_page?(root_path) %>
+    <%= render 'layouts/nav' %>
+  <% end %>
 
     <%= yield %>
 
